@@ -17,7 +17,7 @@ function generateImage() {
     if (imageMap[prompt]) {
         outputDiv.innerHTML = `<img src="${imageMap[prompt]}" alt="${prompt}">`;
     } else {
-        outputDiv.innerHTML = '<p style="color: red;">No match found. Try another prompt!</p>';
+        outputDiv.innerHTML = '<p style="color: red;">Oops!!! Out of Tokens.</p>';
     }
 }
 
